@@ -6,6 +6,7 @@ h1{
 header{
     background: #666666;
     text-align: center;
+    padding: 15px;
 }
 nav{
     font-variant: small-caps;
@@ -24,4 +25,18 @@ summary{
 }
 footer{
     background: #666666;
+    clear: both;
+}
+body{
+    background: #B3B3B3;
+    font-size: 150%;
+    margin: 4%;
+}
+section{
+    width: 30%;
+    display: inline-block;
+    margin-right: 2%;
+}
+img{
+    width: 75px;
 }
