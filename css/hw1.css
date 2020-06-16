@@ -17,7 +17,7 @@ h2{
     text-transform: uppercase;
 }
 section{
-    width: 70%;
+    width: 75%;
 }
 a{
     color: rgb(0, 36, 199);
@@ -57,4 +57,46 @@ nav a{
     display: inline-block;
     margin: 5px;
     background: rgb(255, 255, 255);
+}
+table{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 100%;
+    line-height: 100%;
+    margin: 30px auto;
+    width: 70%;
+}
+th{
+    background-color: rgb(12, 69, 122);
+    background-image: linear-gradient(rgb(48, 64, 211), rgb(203, 247, 255));
+    -ms-background-image: linear-gradient(rgb(48, 64, 211), rgb(203, 247, 255));
+    border-radius: 5px 5px 0 0;
+    border: 1px solid rgb(48, 64, 211);
+    border-bottom-width: 2px;
+    padding: 10px;
+}
+tr{
+    opacity: 0.7;
+}
+tr:hover{
+    opacity: 1;
+    color: rgb(19, 18, 18);
+}
+tr:first-child{
+    opacity: 1;
+}
+td{
+    text-align: center;
+    padding: 5px;
+    color: rgb(3, 3, 3);
+    background-color: rgb(190, 241, 226);
+    border-radius: 2px;
+    text-shadow: 0 0 3px rgb(169, 174, 243);
+    box-shadow: 0 0 2px rgb(4, 19, 158);
+    border: 1px solid rgb(3, 3, 3);
+}
+td:first-child{
+    text-align: left;
+}
+th:first-child{
+    text-align: left;
 }
